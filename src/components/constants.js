@@ -362,9 +362,6 @@ export const categoryList = [
   }
 ]
 
-export const hoverState = Array(categoryList.length);
-
-
 
 export const productList = {
     "products": [

@@ -8,14 +8,7 @@ const CategoriesBar = () => {
   const hoverArr = Array(categoryList.length).fill(false);
   const [hoverState, setHoverState] = useState(hoverArr);
 
-  console.log("catList", categoryList);
-  console.log("catLen1",categoryList.length);
-  console.log("catLen2",categoryList[0]?.subcategories.length);
-  console.log("catLen3", categoryList[0]?.subcategories[0].subcategories.length)
-
   const arr = Array(categoryList.length).fill(0);
-
-  console.log("arr", arr);
 
 
   return (
