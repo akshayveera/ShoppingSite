@@ -367,7 +367,7 @@ export const productList = {
     "products": [
       {
         "id": "prd001",
-        "name": "Sony WH-1000XM4 Wireless Noise Cancelling Headphones",
+        "name": "Sony WH 1000XM4 Wireless Noise Cancelling Headphones",
         "brand": "Sony",
         "model": "WH-1000XM4",
         "rating": 4.7,

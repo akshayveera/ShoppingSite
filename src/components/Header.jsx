@@ -4,10 +4,10 @@ import React from 'react'
 const Header = () => {
 
   return (
-    <div className='flex items-center justify-evenly py-5'>
-      <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="flipkart logo" />
+    <div className='flex items-center justify-between lg:justify-evenly py-2 px-7'>
+      <img className='w-[100px] lg:w-[120px]' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKkqVWP4_nNDhj7YJ-K8kaTHY2J46xjX9EXzdRX4htEaTK8rjvNQcAVsgKeLEvTEX_oJE" alt="flipkart logo" />
 
-      <div className='flex items-center gap-3 bg-blue-50 py-3 px-5 rounded-lg w-[40%] text-lg'>
+      <div className='hidden lg:flex items-center gap-3 bg-blue-50 py-3 px-5 rounded-lg w-[40%] text-lg'>
         <img className='h-5' src="https://www.pngkit.com/png/full/26-269603_search-magnifying-glass-icon-png-grey.png" alt="search logo" />
 
         <p className='text-gray-500'>Search for Products, Brands and More</p>

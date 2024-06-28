@@ -8,7 +8,7 @@ import Catlog from './Catlog'
 const Products = () => {
   return (
     <div className='bg-white px-3 py-5'>
-        <h1 className='text-2xl font-semibold '>Popular Products</h1>
+        <h1 className='text-lg lg:text-2xl font-semibold '>Popular Products</h1>
 
         <div className='my-5 flex flex-wrap justify-evenly'>
           {productList?.products?.map((item)=>{
