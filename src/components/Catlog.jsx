@@ -7,7 +7,7 @@ const Catlog = ({catList, flag}) => {
     const [hoverState, setHoverState] = useState(hoverArr);
       
   return (
-    <div className='w-full lg:w-[220px] rounded border bg-white shadow-2xl'>
+    <div className='w-full lg:w-[220px] rounded border bg-white shadow-2xl z-50'>
         {catList?.map((item, idx)=>{
             return (
                 <div key={item?.title} 

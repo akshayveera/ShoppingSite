@@ -12,7 +12,7 @@ const CategoriesBar = () => {
 
 
   return (
-    <div className='bg-white py-5 item-center justify-evenly hidden lg:flex'>
+    <div className='bg-white py-5 item-center justify-evenly hidden lg:flex z-50'>
         
         {categoryList.map((item, idx)=>{
             return (
