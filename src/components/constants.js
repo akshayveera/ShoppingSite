@@ -520,3 +520,22 @@ export const bannerList = [
   "https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/bf42fbdd3d37c8c3.jpg?q=20",
   "https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/9384b37a848c5e60.jpg?q=20"
 ]
+
+export const loginList = [
+  {"title" : "My Profile"},
+  {"title" : "Flipkart Plus Zone"},
+  {"title" : "Orders"},
+  {"title" : "Wishlist"},
+  {"title" : "Rewards"},
+  {"title" : "Giftcards"},
+]
+
+export const menuList = [
+  {"title" : "Login"},
+  {"title" : "Cart"},
+  {"title" : "Notification Preference"},
+  {"title" : "24X7 Customer Care"},
+  {"title" : "Advertize"},
+  {"title" : "Download App"},
+]
+

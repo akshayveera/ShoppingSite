@@ -18,7 +18,7 @@ const ProductItem = ({item}) => {
             </div>
 
             <div className='flex items-center gap-2'>
-            <p className='text-lg font-semibold'>₹{item?.price}</p>
+            <p className='text-base lg:text-lg  font-semibold'>₹{item?.price}</p>
             <p className='font-semibold text-gray-500 line-through hidden lg:flex'>₹{item?.original_price}</p>
             <p className='font-semibold text-sm text-green-600'>{item?.discount + " off"}</p>
             </div>

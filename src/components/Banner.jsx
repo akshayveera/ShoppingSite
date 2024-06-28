@@ -7,10 +7,10 @@ import { bannerList } from './constants';
 const Banner = ()=> {
 
     return (
-        <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} interval={1500} showThumbs={false}>
+        <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} interval={1500} showThumbs={false} >
             {bannerList.map((item)=>{
                 return (
-                    <div>
+                    <div className='h-[200px]'>
                         <img src={item}/>
                     </div>
                 )

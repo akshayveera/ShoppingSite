@@ -11,7 +11,7 @@ const Catlog = ({catList, flag}) => {
         {catList?.map((item, idx)=>{
             return (
                 <div key={item?.title} 
-                    className={'group py-2  border-b w-full flex flex-col gap-2 lg:flex-row lg:justify-between lg:items-center cursor-pointer text-xs hover:bg-blue-50  hover:shadow ' }
+                    className={'group py-3  border-b w-full flex flex-col gap-2 lg:flex-row lg:justify-between lg:items-center cursor-pointer text-xs hover:bg-blue-50  hover:shadow-md ' }
                     onMouseEnter={()=>{
                         const hoverArr = Array(catList && catList.length).fill(false);
                         hoverArr[idx] = true;
