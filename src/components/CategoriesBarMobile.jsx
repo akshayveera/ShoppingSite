@@ -21,7 +21,7 @@ const CategoriesBarMobile = () => {
         </div>
         
         {isClicked && (
-          <div className='w-full min-w-fit sm:hidden'>
+          <div className='w-full min-w-fit lg:hidden'>
             <Catlog catList={categoryList} flag={true}/>      
           </div>
         )}
