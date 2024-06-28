@@ -21,6 +21,7 @@ const Catlog = ({catList, flag}) => {
                         const hoverArr = Array(catList && catList.length).fill(false);
                         setHoverState(hoverArr);
                     }}
+                    
                     >
                         
                         <div className='flex justify-between items-center w-full'>
