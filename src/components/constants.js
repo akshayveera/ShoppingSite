@@ -511,4 +511,12 @@ export const productList = {
       }
     ]
   }
-  
+
+
+export const bannerList = [
+  "https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/78e89d02375d5222.jpg?q=20",
+  "https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/48d216e35dbd226f.jpg?q=20",
+  "https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/1aaeb0a6531bef88.jpg?q=20",
+  "https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/bf42fbdd3d37c8c3.jpg?q=20",
+  "https://rukminim2.flixcart.com/fk-p-flap/1600/270/image/9384b37a848c5e60.jpg?q=20"
+]

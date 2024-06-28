@@ -10,10 +10,11 @@ const Header = () => {
       <div className='hidden lg:flex items-center gap-3 bg-blue-50 py-3 px-5 rounded-lg w-[40%] text-lg'>
         <img className='h-5' src="https://www.pngkit.com/png/full/26-269603_search-magnifying-glass-icon-png-grey.png" alt="search logo" />
 
-        <p className='text-gray-500'>Search for Products, Brands and More</p>
+        {/* <p className='text-gray-500'>Search for Products, Brands and More</p> */}
+        <input className='w-full bg-transparent outline-none text-base' placeholder='Search for Products, Brands and More' type="text" />
       </div>
 
-      <button className='hidden lg:flex items-center gap-2'>
+      <button className='hidden lg:flex items-center py-2 px-3 rounded gap-2 hover:bg-gray-200'>
         <img className='h-6 ' src="https://cdn-icons-png.flaticon.com/128/1144/1144760.png" alt="login logo" />
         
         <p>Login</p>
@@ -21,12 +22,12 @@ const Header = () => {
         <img className='h-6' src="https://cdn-icons-png.flaticon.com/512/10017/10017905.png" alt="dropdown logo" />
       </button>
 
-      <button className='hidden lg:flex items-center gap-3'>
+      <button className='hidden lg:flex items-center gap-2 py-2 px-3 rounded  hover:bg-gray-200'>
         <img className='h-6' src="https://cdn-icons-png.flaticon.com/512/13/13256.png" alt="cart logo" />
         <p>Cart</p>
       </button>
 
-      <button className='hidden lg:flex items-center gap-3'>
+      <button className='hidden lg:flex items-center gap-2 py-2 px-3 rounded hover:bg-gray-200'>
         <img className='h-6' src="https://cdn-icons-png.flaticon.com/128/5178/5178544.png" alt="bestseller logo" />
         <p>Become a Seller</p>
       </button>

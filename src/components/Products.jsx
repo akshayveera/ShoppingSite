@@ -1,9 +1,7 @@
 
 import React from 'react'
 import { productList } from './constants'
-
 import ProductItem from './ProductItem'
-import Catlog from './Catlog'
 
 const Products = () => {
   return (
@@ -15,8 +13,6 @@ const Products = () => {
             return <ProductItem key={item.id}  item={item}/>
           })}
         </div>
-
-        <Catlog/>
 
     </div>
   )
